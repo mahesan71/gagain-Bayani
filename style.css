@@ -1,0 +1,137 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+ 
+}
+.mainColor{
+    color:#c79288;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    margin-top: 4vh;
+    margin-left: 16vh;
+ 
+
+}
+.pageOptions{
+    width: 50;
+}
+.logoText{
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+.textColor{
+    color: black;
+    text-decoration: none;
+     font-size: 19px;
+}
+.tableText{
+  
+    border-spacing: 50px;
+    float: right;
+    /* margin-top: -12vh;
+    margin-right: 74vh; */
+}
+.twitterLogo{
+    width:50 ;
+    height: 22px;
+    float: right;
+    /* margin-top: -7vh;
+    margin-right: -120vh; */
+
+}
+.heading{
+    color: #c79288;
+    margin-top: 48px;
+    font-size: xxx-large;
+    font-family: big-caslon-fb;
+    font-weight: 400;
+    line-height: 45.4px;
+}
+.blogPost{
+    color: black;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-size: larger;
+    letter-spacing: 1px;
+    padding-right: 7px;
+}
+
+.mainBody{
+    margin-top: 88px;
+    margin-left: 121px;
+    margin-right: 221px;
+}
+.readMore{
+    margin-top: 48px;
+    color: #c79288;
+    line-height: 10px;
+    font-size: larger;
+}
+.footer{
+    margin-top: 340px;
+    height: 480px;
+    
+}
+.message{
+    color: black;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+    
+}
+.butn{
+
+    color: #c79288;
+    font-family: big-caslon-fb;
+    border: -3cm;
+    width: 110px;
+    border-color: #c79288;
+    height: 57px;
+    font-size: larger;
+    border-style: solid;
+    margin-left: 80px;
+}
+.email{
+    height:  57px;
+    width: 110px;
+  
+}
+    
+    
+  
+
+.userDataCollector{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.butn:hover{
+    background-color: #c79288;
+    color:white
+}
+input[type=email]{
+    height: 54px;
+
+    margin-left: -85px;
+    width: 6cm;
+}
+input::placeholder {
+    font-size: larger;
+    font-family: big-caslon-fb;
+    padding-left: 20px;
+ 
+}
